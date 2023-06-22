@@ -4,6 +4,7 @@
 
 def find_intersection(set1, set2):
     # Your code here
+    return set1.intersection(set2)
     pass
 
 
@@ -21,6 +22,7 @@ print(find_intersection(set1, set2))  # Expected output: {4, 5}
 
 def merge_sets(set1, set2):
     # Your code here
+    return set1.union(set2)
     pass
 
 
