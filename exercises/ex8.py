@@ -14,11 +14,10 @@ def find_oldest_student(students):
         if v > age:
             # Assign value to age
             age = v
-            # Assign key to result
+            # Assign key to name
             name = k
-    # Return reslut
+    # Return name
     return name
-    pass
 
 
 # Test the function
