@@ -30,8 +30,6 @@ def generate_fib(n):
     # return list
     return sequence
 
-    pass
-
 
 # Test the function with the following code
 n = int(input("Enter the number: "))

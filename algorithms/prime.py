@@ -5,7 +5,13 @@
 
 def is_prime_number(num):
     # TODO: Check if num is a prime number
-    pass
+    if num == 1: return False
+
+    for i in range(2, num):
+        if (num % i) == 0:
+            return False
+        else:
+            return True
 
 # Test the function
 num = int(input("Enter a number: "))

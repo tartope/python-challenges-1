@@ -13,16 +13,16 @@ def most_frequent_char(s):
     else:
       # else, if char is not in dict then add it and give it a value of 1
       char_count[char] = 1
+
   # Compare the # of occurences
   max_count = 0
   letter = ''
   for k, v in char_count.items():
-    if max_count < v:
+    if v > max_count:
       max_count = v
       letter = k
   # return the letter wiht highest number
   return letter
-  pass 
 
 
 

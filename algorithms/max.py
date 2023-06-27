@@ -11,8 +11,6 @@ def max_value(nums):
       result = num
   return result
 
-  pass 
-
 
 
 # Test cases
